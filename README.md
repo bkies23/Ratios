@@ -1,1 +1,7 @@
 # Ratios
+This is one of two programs involving aspects of the Covid-19 pandemic. This one looks at the lack of U.S. leadership and analyzes a ratio to show how South Korea's handling of the crisis prevented far less loss of life.
+
+The program displays five sequential pages with each page being a class. Again, as in the NewFlagHistories program, each extends a Page base class which has a common counter and location variables for all pages. Three different timers are used: one for the scripts on the screen, one for a JLabel that counts the lives lost, and one for a picture frame which displays chronological images of the pandemic. I designed this program where it cannot be moved or resized and manually added an X Close button in the upper right corner. Since the script continually moves across and down the screen, it would have been too difficult to maintain if windows were repainted.
+The program retrieves data from a MySql database I created which stores pandemic numbers from March 1, 2020 to the present. The data has been taken from the New York Times and Washington Post websistes.
+I learned about web mining for this project as it extracts data from the Worldmeters website to obtain current South Korea death total and current populations for South Korea and the U.S. This information displays as fractions on the cover page.
+I also added buttons to select Page Two through Page Six from the Control section at the bottom of the screen. This way I could check the script for various pages instead of waiting for the program to circle around from Page One.
